@@ -4,17 +4,17 @@ module.exports = {
       name: {
         type: 'string',
         required: true,
-        message: 'archiweb_project',
+        message: 'Project name',
       },
       description: {
         type: 'string',
         required: false,
-        message: 'A quickstart template of archiweb vue project produced by inst.aaa',
-        default: 'A Vue.js project',
+        message: 'Add discription',
+        default: 'A archiweb@inst.aaa vue project',
       },
       author: {
         type: 'string',
-        message: 'Inst.AAA',
+        message: 'Author',
       },
     },
     completeMessage: "To get started:\n\n  cd {{destDirName}}\n  npm install\n  npm run serve",
