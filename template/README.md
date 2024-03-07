@@ -1,4 +1,4 @@
-# archi_init
+# archiweb_project
 
 ## Project setup
 ```
